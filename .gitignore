@@ -1,0 +1,81 @@
+
+# ==== #
+# Misc #
+# ==== #
+git_stats
+.idea/
+/Assets/Plugins/Editor.meta
+/Assets/Plugins/Editor/JetBrains/Unity3DRider.*
+/Assets/Plugins/Editor/JetBrains*
+/Assets/StreamingAssets/Android*
+/Assets/StreamingAssets/iOS*
+/Assets/StreamingAssets/Amazon*
+/AssetBundles
+/AssetBundlesCopy
+/stats
+/reports
+
+# ==== #
+# Unity generated
+# ==== #
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/Assets/AssetStoreTools*
+/Assets/Vendor*
+sysinfo.txt
+
+# ==== #
+# OS Generated
+# ==== #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==== #
+# Auto generated solution and project files
+# ==== #
+.consulo/
+.vscode
+.vs/
+*.booproj
+*.csproj
+*.pidb
+*.pidb.meta
+*.pyc
+*.pyc.meta
+*.sln
+*.sublime-*
+*.suo
+*.svd
+*.swp
+*.tmp
+*.unityproj
+*.user
+*.userprefs
+ExportedObj/
+
+# ==== #
+# Builds
+# ==== #
+/[Bb]in/
+/[Oo]utput/
+/[Bb]uild/
+/[Bb]uilds/
+*.apk
+*.unitypackage
+*.ipa
+
+# ==== #
+# GameSparks auto-generated empty folders
+# ==== #
+/Assets/GameSparks/Plugins*
+/testRunnerLogs/
+~$*.xlsx
+~$*.xlsx.meta
+~$*.xlsm
+~$*.xlsm.meta
