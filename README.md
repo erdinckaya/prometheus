@@ -1,6 +1,5 @@
-Prometheus is design as an example of authoritative server client relation with UDP and RUDP.
-It is developed by full Unity 2019 ECS. It has client predictions, server lag 
-compensation and also full new Unity ECS paradigm. Moreover Prometheus is using
+Prometheus is designed as an example of authoritative server client relation with UDP and RUDP.
+It has client predictions, server lag compensation and also full new Unity ECS paradigm. Moreover Prometheus is using
 [`Yojimbo.Net`](https://github.com/erdinckaya/yojimbo.net) for networking which is very fast and 
 lightweight networking library for dedicated servers.
 
