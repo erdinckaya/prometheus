@@ -38,8 +38,7 @@ public class GameManager : MonoBehaviour
     private float _testPackageLoss;
 
 #endregion
-
-    private readonly ECSManager      _ecsManager      = new ECSManager();      // ECSManager for ECS
+      // ECSManager for ECS
     private readonly MessageConsumer _messageConsumer = new MessageConsumer(); // Network message consumer.
     public           bool            isPaused;                                 // Static Pause Flag
     private          GameClient      _client;                                  // Yojimbo Game Client
@@ -96,7 +95,7 @@ public class GameManager : MonoBehaviour
 
 #endregion
 
-        _ecsManager.Start();
+        ECSManager.Instance.Start();
 
         new Thread(() =>
         {
@@ -125,7 +124,7 @@ public class GameManager : MonoBehaviour
     /// </summary>
     private void Update()
     {
-        _messageConsumer.Update(_ecsManager);
+        _messageConsumer.Update(ECSManager.Instance);
     }
 
 #region DEBUG_BUTTON_HANDLERS
